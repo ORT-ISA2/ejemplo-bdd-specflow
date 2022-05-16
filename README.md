@@ -1,4 +1,4 @@
-# ejemplo-bdd-specflow
+# Ejemplo - BDD con SpecFlow
 
 ## Guía de creación del proyecto (manualmente)
 
