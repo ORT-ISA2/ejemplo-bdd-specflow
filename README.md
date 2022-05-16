@@ -21,7 +21,9 @@
 1. Instalar livingDoc --> dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
 2. Moverse al directorio de salida de los tests --> Calculator/CalculatorTests/bin/Debug/net5.0
 3. Ejecutar el comando para generar html --> livingdoc test-assembly CalculatorTests.dll -t TestExecution.json
-4. En la misma carpeta se encontrará el hml generado. En este caso se deja un ejemplo de salida en la raíz del proyecto: https://github.com/ORT-ISA2/ejemplo-bdd-specflow/blob/main/LivingDoc.html
+4. En la misma carpeta se encontrará el hml generado con un formato similar al siguiente
+
+![Tests Results](https://github.com/ORT-ISA2/ejemplo-bdd-specflow/blob/main/assets/tests-results-example.png)
 
 
 ## Links de referencias
