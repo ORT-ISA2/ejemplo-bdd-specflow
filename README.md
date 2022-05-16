@@ -16,6 +16,13 @@
 8. Crear nuevo archivo de definición de pasos: Nuevo archivo -> SpecFlow -> SpecFlow Step Definition
 9. Implementar los métodos necesarios
 
+## Guía para ver resultados
+
+1. Instalar livingDoc --> dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+2. Moverse al directorio de salida de los tests --> Calculator/CalculatorTests/bin/Debug/net5.0
+3. Ejecutar el comando para generar html --> livingdoc test-assembly CalculatorTests.dll -t TestExecution.json
+4. En la misma carpeta se encontrará el hml generado. En este caso se deja un ejemplo de salida en la raíz del proyecto: https://github.com/ORT-ISA2/ejemplo-bdd-specflow/blob/main/LivingDoc.html
+
 
 ## Links de referencias
 - SpecFlow: https://docs.specflow.org/projects/specflow/en/latest/
